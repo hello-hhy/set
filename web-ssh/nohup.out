@@ -1,0 +1,177 @@
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    app.run("0.0.0.0", 1235, debug=True)
+  File "/home/hzoi/hhy/web-ssh/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/hzoi/hhy/web-ssh/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:1235/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-987-502
+127.0.0.1 - - [20/Jul/2020 11:41:34] "[37mGET / HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:34] "[37mGET /static/jquery.min.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:34] "[37mGET /static/vue.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:34] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [20/Jul/2020 11:41:35] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:35] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:35] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:35] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:36] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:36] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:36] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:37] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:37] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:37] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:38] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:38] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:38] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:38] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:39] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:39] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:39] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:40] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:40] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:40] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:41] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:41] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:41] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:41] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:42] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:42] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:42] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:43] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:43] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:43] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:44] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:44] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:44] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:44] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:45] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:45] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:45] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:46] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:46] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:46] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:47] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:47] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:47] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:47] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:48] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:48] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:48] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:49] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:49] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:49] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:50] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:50] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:50] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:50] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:51] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:51] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:51] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:52] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:52] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:52] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:53] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:53] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:53] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:53] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:54] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:54] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:54] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:55] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:55] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:55] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:56] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:56] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:56] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:56] "[37mGET /history/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [20/Jul/2020 11:41:57] "[37mGET /history/ HTTP/1.1[0m" 200 -
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:1235/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-987-502
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    app.run("0.0.0.0", 1235, debug=True)
+  File "/home/hzoi/hhy/web-ssh/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/hzoi/hhy/web-ssh/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:1235/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-987-502
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:1235/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-987-502
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    app.run("0.0.0.0", 1235, debug=True)
+  File "/home/hzoi/hhy/web-ssh/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/hzoi/hhy/web-ssh/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    app.run("0.0.0.0", 1235, debug=True)
+  File "/home/hzoi/hhy/web-ssh/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/hzoi/hhy/web-ssh/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:1235/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 329-987-502
